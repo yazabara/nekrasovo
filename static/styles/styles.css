@@ -1,0 +1,47 @@
+.jumbotron-top {
+    margin-top: 7rem;
+}
+
+.header .navbar{
+    background-color: burlywood;
+}
+
+/*header styles*/
+.header .container {
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.header .container a {
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.header .container.scrolled {
+    padding: 0.8rem;
+}
+
+.header .container.scrolled .nav.navbar-nav a {
+    font-size: 1.6rem !important;
+}
+
+/*row*/
+
+#about-village {
+    background-color: beige;
+    /*box-shadow: 0 0 2px #888, 0 0 2px #888;*/
+}
+
+#contacts {
+    background-color: beige;
+}
+
+section {
+    padding: 2rem 0;
+    width: 100%;
+    position: relative;
+}
