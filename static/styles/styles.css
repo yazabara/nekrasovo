@@ -1,8 +1,4 @@
-.jumbotron-top {
-    margin-top: 7rem;
-}
-
-.header .navbar{
+.header .navbar {
     background-color: burlywood;
 }
 
@@ -21,15 +17,44 @@
     transition: .3s;
 }
 
+.header .container {
+    padding: 0.5rem;
+}
+
 .header .container.scrolled {
-    padding: 0.8rem;
+    padding: 1rem;
 }
 
 .header .container.scrolled .nav.navbar-nav a {
-    font-size: 1.6rem !important;
+    font-size: 2rem !important;
+}
+
+.header .container.scrolled a {
+    font-size: 2.5rem !important;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text .price {
+    font-size: 6rem;
+    color: #333;
+    border: 0.3rem solid;
+    padding: 1rem;
+    display: inline-block;
 }
 
 /*row*/
+
+#intro {
+    background-color: beige;
+    padding-top: 8rem;
+}
+
+#intro h1 {
+    text-align: center;
+}
 
 #about-village {
     background-color: beige;
@@ -44,4 +69,17 @@ section {
     padding: 2rem 0;
     width: 100%;
     position: relative;
+    text-align: justify;
+}
+
+@media screen and (min-width: 768px) {
+    #intro h1 {
+        font-size: 60px !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .header-text .price {
+        font-size: 4rem; !important;
+    }
 }
