@@ -83,3 +83,9 @@ section {
         font-size: 4rem; !important;
     }
 }
+
+#map-canvas {
+    height: 300px;
+    margin: 0;
+    padding: 0
+}
