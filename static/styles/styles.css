@@ -1,5 +1,5 @@
 .header .navbar {
-    background-color: burlywood;
+    background-color: #3B9A44;
 }
 
 /*header styles*/
@@ -11,10 +11,19 @@
 }
 
 .header .container a {
+    color: black !important;
+    opacity: 0.7;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem !important;
+
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -o-transition: .3s;
     transition: .3s;
+}
+.header .container a:hover {
+    color: black !important;
+    opacity: 1;
 }
 
 .header .container {
@@ -48,7 +57,6 @@
 /*row*/
 
 #intro {
-    background-color: beige;
     padding-top: 8rem;
 }
 
@@ -56,20 +64,22 @@
     text-align: center;
 }
 
-#about-village {
-    background-color: beige;
-    /*box-shadow: 0 0 2px #888, 0 0 2px #888;*/
-}
-
-#contacts {
-    background-color: beige;
-}
-
 section {
     padding: 2rem 0;
     width: 100%;
     position: relative;
     text-align: justify;
+
+}
+
+.separator {
+    margin-top: 3rem;
+    border-bottom: 0.2rem solid #3B9A44;
+}
+
+#footer {
+    background-color: #3B9A44;
+    height: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -88,4 +98,24 @@ section {
     height: 300px;
     margin: 0;
     padding: 0
+}
+
+.header-ms-text {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.header-ms-text .fa {
+    margin-right: 1rem;
+    color: #3B9A44;
+}
+
+
+.social-link {
+    font-size: 5rem !important;
+    margin-right: 2rem;
+}
+
+.col-md-6 {
+    text-align: center;
 }

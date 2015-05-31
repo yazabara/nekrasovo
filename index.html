@@ -9,6 +9,10 @@
 
     <link media="all" rel="stylesheet" type="text/css"
           href="static/styles/styles.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -27,7 +31,6 @@
                 <ul class="nav navbar-nav">
                     <li><a href="#" scroll-to-item scroll-to="#why-nekrasovo" scroll-coff="-75">Почему Некрасово?</a>
                     </li>
-                    <li><a href="#" scroll-to-item scroll-to="#about-village" scroll-coff="-75">О поселке</a></li>
                     <li><a href="#" scroll-to-item scroll-to="#areas" scroll-coff="-75">Участки</a></li>
                     <li><a href="#" scroll-to-item scroll-to="#contacts" scroll-coff="-75">Контакты</a></li>
                     </li>
@@ -39,18 +42,18 @@
 
 <section id="intro">
     <div class="container">
-        <h1>Коттеджный копмлекс "Некрасово"</h1>
+        <h1 class="header-ms-text"><i class="fa fa-home"></i>Коттеджный комплекс "Некрасово"</h1>
 
 
         <div class="header-text">
             <h2 class="price">35 000 за 1 сотку.</h2>
         </div>
-
+        <div class="separator"></div>
     </div>
 </section>
 
 <section id="why-nekrasovo">
-    <h1 style="text-align: center">Почему "Некрасово"</h1>
+    <h1 class="header-ms-text"><i class="fa fa-search"></i>Почему "Некрасово"</h1>
 
     <div class="container">
         <p class="lead">Котеджный поселок «Некрасово» - это маленький уголок чистоты и экологии, который, как
@@ -68,32 +71,30 @@
             количеством машин, а в скором времени ожидается окончание строительства дорожной развязки на пересечении
             Старицкого шоссе и автодороги Москва-Санкт-Петербург! </p>
 
-        <p class="lead">Жизнь за городом – это Ваше спокойствие, здоровье, удобство, комфорт и престиж!
-
+        <p class="lead">
+            Жизнь за городом – это Ваше спокойствие, здоровье, удобство, комфорт и престиж!
         </p>
 
-        <h2> Выбирайте нас, и мы Вас не подведем!</h2>
+        <h2 class="header-ms-text"> Выбирайте нас, и мы Вас не подведем!</h2>
 
-    </div>
-</section>
-
-<section id="about-village">
-    <h1 style="text-align: center">О поселке</h1>
-
-    <div class="container">
-        <p class="lead">Котеджный поселок «Некрасово» - это 28 участков от 8 соток, расположенный в Красногорском
-            сельском поселении (Старицкое направление), дорога на автомобиле займет у Вас всего 10 минут от города.</p>
-
-        <p class="lead">В самом центре поселка находится пруд, окруженный березовой рощей. </p>
-
-        <p class="lead">В 2 км от поселка находится река Волга.
-            Отсутствуют промышленные предприятия.</p>
-
+        <div class="separator"></div>
     </div>
 </section>
 
 <section id="areas">
-    <h1 style="text-align: center">Расположение участков</h1>
+    <h1 class="header-ms-text"><i class="fa fa-tree"></i>Расположение участков</h1>
+
+    <div class="container">
+        <p class="lead">Котеджный поселок «Некрасово» - это 28 участков от 8 соток, расположенный в Красногорском
+            сельском поселении (Старицкое направление), дорога на автомобиле займет у Вас всего 10 минут от города.
+            В самом центре поселка находится пруд, окруженный березовой рощей.
+            В 2 км от поселка находится река Волга.</p>
+    </div>
+
+    <div style="margin: auto">
+        <img src="static/images/areas.PNG" title="" class="img-responsive" style="margin: auto"/>
+    </div>
+
 
     <div class="container">
         <p class="lead">Земельные участки будут иметь полный пакет документов (свидетельство на право собственности и
@@ -104,29 +105,45 @@
         <div id="map-canvas">
 
         </div>
+        <div class="separator"></div>
     </div>
 </section>
 
 <section id="contacts">
-    <h1 style="text-align: center">Контакты</h1>
+    <h1 class="header-ms-text"><i class="fa fa-users"></i> Контакты</h1>
 
     <div class="container">
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
-            commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <div class="col-md-6">
+            <p class="lead">
+                <a href="mailto:email@echoecho.com?subject=SweetWords">
+                    <i class="fa fa-envelope"></i> Написать письмо
+                </a>
+            </p>
 
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
-            commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p class="lead">
+                <i class="fa fa-phone"></i> 8 904 *** ** **
+            </p>
+        </div>
+        <div class="col-md-6" style="margin-top: 2rem;">
+            <p class="lead">
+                <a href="http://vk.com/idanna_anina">
+                    <i class="fa fa-vk social-link"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-facebook social-link"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-google-plus social-link"></i>
+                </a>
+            </p>
+        </div>
 
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
-            commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
-            commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
-            commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 
     </div>
+</section>
+
+<section id="footer">
+
 </section>
 
 
