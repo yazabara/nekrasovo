@@ -1,5 +1,6 @@
 .header .navbar {
     background-color: #3B9A44;
+    top: 110px;
 }
 
 /*header styles*/
@@ -57,7 +58,7 @@
 /*row*/
 
 #intro {
-    padding-top: 8rem;
+    padding-top: 20rem;
 }
 
 #intro h1 {
@@ -111,11 +112,34 @@ section {
 }
 
 
-.social-link {
-    font-size: 5rem !important;
-    margin-right: 2rem;
+.col-md-6 {
+    text-align: center;
 }
 
-.col-md-6 {
+.pre-nav-bar {
+    background-color: white;
+    width: 100%;
+}
+
+.pre-nav-bar img {
+    display: block;
+}
+
+#logo {
+    float: right;
+}
+
+.pre-nav-bar .info {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.sale {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: darkred;
+}
+
+#contacts h2{
     text-align: center;
 }

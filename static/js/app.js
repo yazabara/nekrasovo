@@ -2,9 +2,9 @@ var nekrasovoApp = angular.module('NekrasovoApp', [], function () {
     'use strict';
 
     function initialize() {
-        var lat = new google.maps.LatLng(57.365002, 36.072368);
+        var lat = new google.maps.LatLng(56.754511, 35.645149);
         var mapOptions = {
-            zoom: 14,
+            zoom: 12,
             center: lat
         };
         var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
