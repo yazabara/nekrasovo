@@ -2,6 +2,9 @@
 <html ng-app="NekrasovoApp">
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="Keywords" content="Некрасово Тверь Коттеджный Поселок лучшая земля">
+    <meta name="Description"
+          content="земельные участки в калининском районе, земля под ИЖС в калининском районе, строительство в калининском районе, участки ижс по старицкому шоссе, дача под тверью, куплю земельный участок тверь">
     <title>Некрасово, земледельные участки.</title>
 
     <link media="all" rel="stylesheet" type="text/css"
@@ -10,19 +13,20 @@
     <link media="all" rel="stylesheet" type="text/css"
           href="static/styles/styles.css">
 
-    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link media="all" href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link media="all" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
 
 <div class="header">
-    <div class="pre-nav-bar navbar-fixed-top">
-        <div class="container hidden-phone">
-            <div class="col-md-6">
-                <img id="logo" src="static/images/icon.gif" width="100" height="100">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container pre-nav-bar hidden-phone">
+
+            <div class="col-md-2">
+                <img id="logo" src="static/images/icon.gif" width="120" height="90">
             </div>
-            <div class="col-md-6 info">
+            <div class="info col-md-3">
                 <p class="lead">
                     <i class="fa fa-phone"></i> +7 915 732 45 22
                 </p>
@@ -31,27 +35,35 @@
                     <i class="fa fa-phone"></i> +7 (4822) 600-716
                 </p>
             </div>
+            <div class="col-md-2 ">
+                <p class="lead price">28 000 рублей за 1 сотку</p>
+            </div>
+            <div class="col-md-4">
+                <p class="lead sale">Рассрочка обсуждается индивидуально с каждым клиентом!</p>
+
+                <p class="lead sale hidden-tablet">Цена зависит от выбранного участка.</p>
+            </div>
+
         </div>
 
-    </div>
-    <nav class="navbar navbar-default navbar-fixed-top">
         <div nav-class-directive nav-class="scrolled" class="container">
             <div class="navbar-header">
                 <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
                         aria-controls="navbar" class="navbar-toggle collapsed"><span
                         class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
                         class="icon-bar"></span><span class="icon-bar"></span></button>
-                <a href="#" scroll-to-item scroll-to="#intro" scroll-coff="-75"
+                <a href="#" scroll-to-item scroll-to="#intro" scroll-coff="-200"
                    class="navbar-brand">
                     <i class="fa fa-home"></i>
                 </a>
             </div>
             <div id="navbar" aria-expanded="false" style="height: 1px;" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#" scroll-to-item scroll-to="#why-nekrasovo" scroll-coff="-75">Почему Некрасово?</a>
+                    <li><a href="#" scroll-to-item scroll-to="#why-nekrasovo" scroll-coff="-200">Почему Некрасово?</a>
                     </li>
-                    <li><a href="#" scroll-to-item scroll-to="#areas" scroll-coff="-75">Участки</a></li>
-                    <li><a href="#" scroll-to-item scroll-to="#contacts" scroll-coff="-75">Контакты</a></li>
+                    <li><a href="#" scroll-to-item scroll-to="#areas" scroll-coff="-200">Участки</a></li>
+                    <li><a href="#" scroll-to-item scroll-to="#gallery" scroll-coff="-200">Галерея</a></li>
+                    <li><a href="#" scroll-to-item scroll-to="#contacts" scroll-coff="-200">Контакты</a></li>
                     </li>
                 </ul>
             </div>
@@ -61,14 +73,14 @@
 
 <section id="intro">
     <div class="container">
-        <h1 class="header-ms-text"><i class="fa fa-home"></i>Коттеджный комплекс "Некрасово"</h1>
+        <h1 class="header-ms-text"><i class="fa fa-home"></i>Коттеджный посёлок "Некрасово"</h1>
 
 
         <div class="header-text">
-            <h2 class="price">35 000 рублей за 1 сотку.</h2>
+            <h2 class="price">28 000 рублей за 1 сотку.</h2>
         </div>
 
-        <h3 class="sale">Рассрочка и размер скидки обсуждается индивидуально с каждым клиентом!</h3>
+        <h3 class="sale">Цена зависит от выбранного участка. Рассрочка обсуждается индивидуально с каждым клиентом!</h3>
 
         <div class="separator"></div>
     </div>
@@ -114,7 +126,7 @@
     </div>
 
     <div style="margin: auto">
-        <img src="static/images/areas.PNG" title="" class="img-responsive" style="margin: auto"/>
+        <img src="static/images/areas2.PNG" title="" class="img-responsive" style="margin: auto"/>
     </div>
 
 
@@ -131,6 +143,50 @@
     </div>
 </section>
 
+<section id="gallery">
+
+    <h1 class="header-ms-text" style="margin-bottom: 2rem"><i class="fa fa-picture-o"></i>Галерея</h1>
+
+    <div class="container">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="static/images/1.jpg" alt="...">
+
+                    <div class="carousel-caption">
+                        ЧТо-то интересное
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="static/images/2.jpg" alt="...">
+
+                    <div class="carousel-caption">
+                        ЧТо-то интересное
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="static/images/2.jpg" alt="...">
+
+                    <div class="carousel-caption">
+                        ЧТо-то интересное
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="separator"></div>
+    </div>
+
+</section>
+
 <section id="contacts">
     <h1 class="header-ms-text"><i class="fa fa-users"></i> Контакты</h1>
 
@@ -140,7 +196,9 @@
 
         <h2><i class="fa fa-phone"></i> +7 915 732 45 22</h2>
 
-        <h3 class="sale">Рассрочка и размер скидки обсуждается индивидуально с каждым клиентом!</h3>
+        <h3 class="sale">Рассрочка обсуждается индивидуально с каждым клиентом!</h3>
+
+        <h3 class="sale">Цена зависит от выбранного участка.</h3>
 
     </div>
 </section>
